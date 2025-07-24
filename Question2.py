@@ -4,8 +4,5 @@ app = FastAPI()
 
 @app.get("/welcome/{name}")
 
-
-
-def helloWorld(name: str):
-    print ("Welcome" + name)
-    raise HTTPException(status_code=200)
+def Welcome(name: str):
+    return ("Welcome " + name)
