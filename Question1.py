@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 
 app = FastAPI()
 
-@app.get("/hello")
+@app.get("/hello", responses=str)
 
 def helloWorld():
     print ("Hello World")
