@@ -1,8 +1,12 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
+from pydantic import BaseModel
 
 app = FastAPI()
 
-@app.get("/welcome/{name}")
+class Welcome(BaseModel):
+    name: str
 
-def Welcome(name: str):
-    return ("Welcome " + name)
+
+@app.post("/welcome")
+def welcome_user(request: Welcome):
+    return {f"Welcome {request.name}"}
