@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "title": "Faire son lit",
+        "description": "Commencer la journ\u00c3\u00a9e avec un espace rang\u00c3\u00a9",
+        "completed": false
+    },
+    {
+        "id": 3,
+        "title": "Cr\u00e9er une API",
+        "description": "Utiliser FastAPA pour g\u00e9rer les t\u00e2ches",
+        "completed": false
+    },
+    {
+        "id": 3,
+        "title": "\u00c3\u2030couter une chanson inspirante",
+        "description": "Lancer une playlist motivante",
+        "completed": false
+    },
+    {
+        "id": 4,
+        "title": "\u00c3\u2030crire 3 choses positives",
+        "description": "Gratitude matinale",
+        "completed": false
+    },
+    {
+        "id": 5,
+        "title": "Pr\u00c3\u00a9parer un bon petit-d\u00c3\u00a9jeuner",
+        "description": "Quelque chose de nourrissant et savoureux",
+        "completed": false
+    },
+    {
+        "id": 6,
+        "title": "Lire un article ou une page d\u00e2\u20ac\u2122un livre",
+        "description": "Stimuler l\u00e2\u20ac\u2122esprit",
+        "completed": false
+    },
+    {
+        "id": 7,
+        "title": "Faire 10 minutes d\u00e2\u20ac\u2122\u00c3\u00a9tirements",
+        "description": "D\u00c3\u00a9tendre le corps",
+        "completed": false
+    },
+    {
+        "id": 8,
+        "title": "R\u00c3\u00a9pondre \u00c3\u00a0 un message en attente",
+        "description": "Rattraper une conversation",
+        "completed": false
+    },
+    {
+        "id": 9,
+        "title": "Sortir prendre l\u00e2\u20ac\u2122air",
+        "description": "M\u00c3\u00aame juste quelques minutes dehors",
+        "completed": false
+    },
+    {
+        "id": 10,
+        "title": "Organiser une t\u00c3\u00a2che de la semaine",
+        "description": "Planifier un truc \u00c3\u00a0 ne pas oublier",
+        "completed": false
+    },
+    {
+        "id": 11,
+        "title": "Faire une corv\u00c3\u00a9e rapide",
+        "description": "Vaisselle, linge, ou autre",
+        "completed": false
+    },
+    {
+        "id": 12,
+        "title": "Regarder une vid\u00c3\u00a9o inspirante",
+        "description": "TED Talk, documentaire, ou autre",
+        "completed": false
+    },
+    {
+        "id": 13,
+        "title": "Dessiner ou gribouiller",
+        "description": "M\u00c3\u00aame si ce n\u00e2\u20ac\u2122est pas artistique",
+        "completed": false
+    },
+    {
+        "id": 14,
+        "title": "Pr\u00c3\u00a9parer un repas simple",
+        "description": "Quelque chose de fait maison",
+        "completed": false
+    },
+    {
+        "id": 15,
+        "title": "Faire une pause sans \u00c3\u00a9cran",
+        "description": "Juste respirer ou observer",
+        "completed": true
+    },
+    {
+        "id": 16,
+        "title": "\u00c3\u2030couter un podcast ou une \u00c3\u00a9mission",
+        "description": "Quelque chose qui t\u00e2\u20ac\u2122int\u00c3\u00a9resse",
+        "completed": false
+    },
+    {
+        "id": 17,
+        "title": "\u00c3\u2030crire une id\u00c3\u00a9e ou un r\u00c3\u00aave",
+        "description": "Quelque chose que tu aimerais r\u00c3\u00a9aliser",
+        "completed": false
+    },
+    {
+        "id": 18,
+        "title": "Faire un peu de rangement",
+        "description": "Un tiroir, une \u00c3\u00a9tag\u00c3\u00a8re, un coin",
+        "completed": false
+    },
+    {
+        "id": 19,
+        "title": "Prendre soin de toi",
+        "description": "Routine visage, d\u00c3\u00a9tente, ou autre",
+        "completed": false
+    }
+]
