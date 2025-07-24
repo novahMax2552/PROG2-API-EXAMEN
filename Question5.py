@@ -35,4 +35,3 @@ def update_students(student_reference: str, updated_student: Students):
             students[i] = updated_student
             write_student(students)
             return updated_student
-    raise HTTPException(status_code=404, detail="Tâche non trouvée")
