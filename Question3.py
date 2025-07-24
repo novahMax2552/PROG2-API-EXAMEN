@@ -28,8 +28,9 @@ def write_student(student: List[Students]):
         json.dump([student.dict() for student in Students], f, indent=4)
 
 @app.post("/students", response_model=Students)
-def create_task(student: Students):
+def create_student(student: Students):
     Student = read_student()
     Student.append(student)
-    write_student(student)
+    write_student(Student)
     return Student
+raise HTTPException(detail="CREATED")
