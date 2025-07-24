@@ -23,9 +23,9 @@ def read_student() -> List[Students]:
         data = json.load(f)
         return [Students(**item) for item in data]
 
-def write_student(student: List[Students]):
+def write_student(students: List[Students]):
     with open(DB_FILE, "w") as f:
-        json.dump([student.dict() for student in Students], f, indent=4)
+        json.dump([student.dict() for student in students], f, indent=4)
 
 @app.post("/students", response_model=Students)
 def create_student(student: Students):
@@ -33,4 +33,4 @@ def create_student(student: Students):
     Student.append(student)
     write_student(Student)
     return Student
-raise HTTPException(detail="CREATED")
+raise HTTPException(status_code=204)
